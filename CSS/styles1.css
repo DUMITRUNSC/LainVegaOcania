@@ -178,6 +178,7 @@ button {
     /* Cambia el cursor a un puntero cuando se pasa el ratón por encima */
     transition: box-shadow 0.3s ease;
     background-color: #fc02a8;
+    color: black;
 }
 
 button:hover section {

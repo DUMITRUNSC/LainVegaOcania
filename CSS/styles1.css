@@ -287,18 +287,19 @@ section {
 
 }
 
-/* Estilos responsivos para diferentes tamaños de pantalla */
 @media screen and (max-width: 768px) {
-    nav button {
-        width: 70%;
-        /* Ancho reducido para pantallas medianas (tabletas) */
+    /* Estilos específicos para dispositivos móviles */
+    button {
+        color: black; /* Cambiar color de texto a negro en dispositivos móviles */
+        width: 70%; /* Ancho reducido para pantallas medianas (tabletas) */
     }
 }
 
 @media screen and (max-width: 480px) {
-    nav button {
-        width: 90%;
-        /* Ancho ajustado para pantallas pequeñas (móviles) */
+    /* Estilos específicos para dispositivos móviles más pequeños */
+    button {
+        color: black; /* Cambiar color de texto a negro en dispositivos móviles */
+        width: 90%; /* Ancho ajustado para pantallas pequeñas (móviles) */
     }
 }
 
